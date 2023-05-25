@@ -1,0 +1,32 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:#ffffff;
+    background-color: #000000;
+    text-align: center;
+    border: solid;color: aliceblue;
+
+  }
+
+p,#P2 {
+    margin: 10px 0;
+    text-align: center;
+    color: beige;
+    
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+
+  header {
+    background-image: url("pandors.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* eller valfri höjd */
+  }
+  
+  

@@ -1,0 +1,201 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  
+  
+  header {
+    position: relative;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2em;
+    text-align: center;
+    background-image: url("pandor.jpg.jpg");
+    background-position: center;
+    height: 150px;
+
+    
+  }
+  
+
+  
+  nav {
+    background-color: #eee;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Main delen av sidan */
+  
+  main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+  }
+  
+  /* stil för footer, längst ner. */
+  
+  footer {
+    background-color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+  #livsmiljö {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  #livsmiljö p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Diet delen */
+  
+  #diet {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  #diet p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Beteende delen*/
+  
+  #beteende {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  #beteende p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Kvarlevnad delen */
+  
+  #kvarlevnad {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  #kvarlevnad p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  /* Hur navigationslänkerna ska se ut.*/
+  
+  nav a.active {
+    background-color: #ddd;
+    font-weight: bold;
+  }
+  
+  /* När man håller över texten med muspekaren */
+  
+  nav a:hover {
+    background-color: #ddd;
+    border-radius: 3px;
+    color: #333;
+  }
+  
+  /* Footer, delen löngst ner på sidan */
+  
+  footer p {
+    font-size: 0.9em;
+    color: #888;
+  }  
+
+  .container:hover h1,
+.container:hover h2,
+.container:hover p {
+  color: rgba(255, 0, 0, 0.575);
+}
+/* När man klickar på en länk, */
+
+nav a:active,
+nav a:focus {
+  color: red;
+}
+
+nav a:active,
+nav a:focus,
+section:target h2,
+section:target p {
+  color: red;
+}
